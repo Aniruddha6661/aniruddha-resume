@@ -8,7 +8,7 @@ export default function App() {
       {/* Hero Section */}
       <section className="min-h-screen bg-gradient-to-br from-blue-700 to-indigo-800 text-white flex flex-col items-center justify-center p-6 text-center">
         <motion.img
-          src="/profile.jpg"
+          src={`${process.env.PUBLIC_URL}/profile.jpg`}
           alt="Aniruddha Kamble"
           className="w-52 h-64 rounded-full mb-6 border-4 border-white shadow-xl"
           initial={{ opacity: 0, scale: 0.8 }}
