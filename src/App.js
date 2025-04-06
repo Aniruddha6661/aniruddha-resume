@@ -6,7 +6,7 @@ export default function App() {
     <div className="font-sans bg-gray-50 text-gray-800">
       {/* Hero Section */}
       <section className="min-h-screen bg-gradient-to-br from-blue-600 to-indigo-700 text-white flex flex-col items-center justify-center p-4">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">Aniruddha Patil</h1>
+        <h1 className="text-5xl md:text-6xl font-bold mb-4">Aniruddha Kamble</h1>
         <p className="text-xl md:text-2xl mb-6">Implementation Consultant @ Siemens | Teamcenter PLM Expert</p>
         <div className="flex gap-4">
           <a href="mailto:youremail@example.com" className="hover:text-gray-300"><Mail /></a>
@@ -73,7 +73,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white text-center py-4">
-        © {new Date().getFullYear()} Aniruddha Patil. All rights reserved.
+        © {new Date().getFullYear()} Aniruddha Kamble. All rights reserved.
       </footer>
     </div>
   );
