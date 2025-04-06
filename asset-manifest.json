@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aniruddha-resume/static/css/main.6acb1a02.css",
+    "main.js": "/aniruddha-resume/static/js/main.7c60a5c8.js",
+    "static/js/453.5400c0e0.chunk.js": "/aniruddha-resume/static/js/453.5400c0e0.chunk.js",
+    "index.html": "/aniruddha-resume/index.html",
+    "main.6acb1a02.css.map": "/aniruddha-resume/static/css/main.6acb1a02.css.map",
+    "main.7c60a5c8.js.map": "/aniruddha-resume/static/js/main.7c60a5c8.js.map",
+    "453.5400c0e0.chunk.js.map": "/aniruddha-resume/static/js/453.5400c0e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6acb1a02.css",
+    "static/js/main.7c60a5c8.js"
+  ]
+}
