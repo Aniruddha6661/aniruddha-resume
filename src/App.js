@@ -6,9 +6,9 @@ export default function App() {
   return (
     <div className="font-sans bg-gradient-to-br from-sky-50 to-blue-100 text-gray-900">
       {/* Hero Section */}
-      <section className="min-h-screen bg-gradient-to-br from-blue-700 to-indigo-800 text-white flex flex-col items-center justify-center p-6 text-center">
+      <section className="min-h-screen bg-gradient-to-br from-blue-700 to-indigo-800 text-white flex flex-col items-center justify-center py-12 sm:py-20 px-4 sm:px-6 text-center">
         <motion.img
-          src={`${process.env.PUBLIC_URL}/profile.jpg`}
+          src="/aniruddha-resume/profile.jpg"
           alt="Aniruddha Kamble"
           className="w-52 h-64 rounded-full mb-6 border-4 border-white shadow-xl"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -16,7 +16,7 @@ export default function App() {
           transition={{ duration: 0.6, ease: "easeOut" }}
         />
         <motion.h1
-          className="text-5xl md:text-6xl font-bold mb-4"
+          className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2 }}
@@ -24,7 +24,7 @@ export default function App() {
           Aniruddha Kamble
         </motion.h1>
         <motion.p
-          className="text-xl md:text-2xl mb-6 whitespace-nowrap"
+          className="text-base sm:text-lg md:text-2xl mb-6 whitespace-normal"
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3 }}
@@ -32,7 +32,7 @@ export default function App() {
           Implementation Consultant @ Siemens DISW | Teamcenter PLM Expert
         </motion.p>
         <motion.div
-          className="flex gap-6 text-2xl"
+          className="flex gap-4 sm:gap-6 text-xl sm:text-2xl"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
@@ -44,7 +44,7 @@ export default function App() {
       </section>
 
       {/* About Section */}
-      <section className="py-20 px-6 bg-white shadow-inner">
+      <section className="py-12 sm:py-20 px-4 sm:px-6 bg-white shadow-inner">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-center text-blue-800">About Me</h2>
           <p className="text-lg leading-relaxed text-gray-700">
@@ -54,10 +54,10 @@ export default function App() {
       </section>
 
       {/* Skills Section */}
-      <section className="py-20 px-6 bg-gradient-to-r from-blue-100 to-indigo-100">
+      <section className="py-12 sm:py-20 px-4 sm:px-6 bg-gradient-to-r from-blue-100 to-indigo-100">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-10 text-blue-800">Skills</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 text-lg">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6 text-sm sm:text-lg">
             {['Teamcenter', 'Active Workspace', 'Java / ITK', 'BMIDE', 'Linux', 'SQL'].map(skill => (
               <motion.span
                 key={skill}
@@ -72,7 +72,7 @@ export default function App() {
       </section>
 
       {/* Experience Section */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-12 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-blue-800">Experience</h2>
           <div className="space-y-4">
@@ -89,7 +89,7 @@ export default function App() {
       </section>
 
       {/* Education Section */}
-      <section className="py-20 px-6 bg-gray-100">
+      <section className="py-12 sm:py-20 px-4 sm:px-6 bg-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold mb-6 text-blue-800">Education</h2>
           <p className="text-lg text-gray-700">B.E. in Mechanical, KIT Kolhapur, 2020</p>
@@ -97,21 +97,19 @@ export default function App() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-6 bg-white text-center">
+      <section className="py-12 sm:py-20 px-4 sm:px-6 bg-white text-center">
         <h2 className="text-4xl font-bold mb-4 text-blue-800">Get in Touch</h2>
         <p className="text-lg text-gray-700 mb-6">Open to full-time onsite or remote roles globally.</p>
-        <p className="text-lg text-gray-700 mb-6">
-        </p>
-        <p className="flex justify-center gap-4">
+        <p className="flex justify-center gap-4 flex-wrap">
           <a
             href="mailto:aniruddhakamble88@gmail.com"
-            className="bg-blue-600 text-white px-6 py-3 rounded-full shadow hover:bg-blue-700 transition"
+            className="text-sm sm:text-base bg-blue-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full shadow hover:bg-blue-700 transition"
           >
             Email Me
           </a>
           <a
             href="tel:+918554852769"
-            className="bg-green-600 text-white px-6 py-3 rounded-full shadow hover:bg-green-700 transition"
+            className="text-sm sm:text-base bg-green-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full shadow hover:bg-green-700 transition"
           >
             Call Me
           </a>
